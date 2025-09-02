@@ -1,3 +1,46 @@
+Combined LICENSE for Qt5IniFormat
+
+This repository contains a mix of code: some files are derived from
+Qt sources (which carry their own copyright and license headers),
+and other files in this project are released into the public domain.
+
+Summary
+-------
+- Files that include the Qt copyright/license header (and thus are
+	distributed under the terms described in those headers) are:
+	- `qt5iniimpl.h`
+	- `qt5iniimpl.cpp`
+
+	Those files include the following notice and are available under
+	The Qt Company licensing terms (LGPL v2.1 or v3) with the Qt
+	Company LGPL Exception 1.1 as stated in their file headers:
+
+	"Copyright (C) 2015 The Qt Company Ltd."
+
+	See the headers in the files above for the complete license text and
+	exception. Also refer to:
+	- https://www.qt.io/licensing/
+	- https://www.gnu.org/licenses/lgpl-2.1.html
+	- https://www.gnu.org/licenses/lgpl-3.0.html
+
+- All other files in this repository are released into the public
+	domain under the Unlicense (the original content of this `LICENSE`
+	file). The Unlicense text is included below.
+
+Notes
+-----
+- This combined LICENSE clarifies that some source files are derived
+	from Qt and are therefore subject to the Qt/LGPL terms shown in
+	their headers. You cannot relicense those files under a different
+	license without complying with the Qt licensing terms or replacing
+	the derived code.
+- If you want the entire repository to use a single license, you must
+	either replace the LGPLed Qt-derived files with code you own or
+	obtain a compatible relicense from the copyright holder.
+
+Unlicense (public domain dedication)
+-----------------------------------
+
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or

@@ -1,0 +1,12 @@
+#ifndef QT5INIFORMAT_GLOBAL_H
+#define QT5INIFORMAT_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(QT5INIFORMAT_LIBRARY)
+#define QT5INIFORMAT_EXPORT Q_DECL_EXPORT
+#else
+#define QT5INIFORMAT_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // QT5INIFORMAT_GLOBAL_H
